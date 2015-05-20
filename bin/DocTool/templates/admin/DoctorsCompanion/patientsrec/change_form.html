@@ -1,0 +1,17 @@
+{% extends 'admin/change_form.html' %}
+
+{% block object-tools-items %}
+    {{ block.super }}
+    <li>
+        <a href="print">
+            <i class="icon-print icon-alpha75"></i>
+            Print
+        </a>
+    </li>
+	<li>
+        <a href="printMedicalCertificate" target="_blank">
+            <i class="icon-print icon-alpha75"></i>
+            Print Medical Certificate
+        </a>
+    </li>
+{% endblock %}
